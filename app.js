@@ -27,3 +27,17 @@ Complete Exercise 2 in the space below:
 console.log('Exercise 2 result:', foods);
 foods.unshift('pizza', 'cheeseburger');
 console.log(foods);
+
+
+
+/*
+Exercise 3: Insert at the beginning
+
+1) Insert the string 'taco' at the beginning of the `foods` array.
+
+Complete Exercise 3 in the space below:
+*/
+
+foods.unshift('taco')
+
+console.log('Exercise 3 result:', foods);
