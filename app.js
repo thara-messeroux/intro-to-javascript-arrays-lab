@@ -22,10 +22,10 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-
-
 console.log('Exercise 2 result:', foods);
+
 foods.unshift('pizza', 'cheeseburger');
+
 console.log(foods);
 
 
@@ -53,6 +53,47 @@ Exercise 4: Access an array element
 
 Complete Exercise 4 in the space below:
 */
-splice(start, deleteCount, foods[1])
+
+let favFood = foods[1];
+
 console.log('Exercise 4 result:', favFood);
 
+
+// splice(start, deleteCount)
+// splice(start, deleteCount, item0)
+// splice(start, deleteCount, item0, item1)
+
+// Example 1 — Remove one item
+let testFoods1 = ['apple', 'banana', 'cookie', 'donut'];
+
+testFoods1.splice(2, 1); // remove 'cookie'
+
+console.log(testFoods1);
+
+// Example 2 — Add an item without deleting
+let testFoods2 = ['apple', 'banana', 'cookie', 'donut'];
+
+testFoods2.splice(1, 0, 'grapes'); // insert 'grapes' at index 1
+
+console.log(testFoods2);
+
+// Example 3 — Replace an item
+
+let testFoods3 = ['apple', 'banana', 'cookie', 'donut'];
+
+testFoods3.splice(3, 1, 'muffin'); // replace 'donut' with 'muffin'
+
+console.log(testFoods3);
+
+
+/*
+Exercise 5: Insert an element between two others
+
+1) Insert the string 'tofu' between 'pizza' and 'cheeseburger' in the array.
+
+Complete Exercise 5 in the space below:
+*/
+
+
+
+console.log('Exercise 5 result:', foods);
