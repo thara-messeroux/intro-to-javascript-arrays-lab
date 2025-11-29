@@ -12,6 +12,7 @@ const foods = [];
 
 console.log('Exercise 1 result:', foods);
 
+
 /*
 Exercise 2: Add strings to the array
 
@@ -27,7 +28,6 @@ console.log('Exercise 2 result:', foods);
 foods.unshift('pizza', 'cheeseburger');
 
 console.log(foods);
-
 
 
 /*
@@ -57,7 +57,6 @@ Complete Exercise 4 in the space below:
 let favFood = foods[1];
 
 console.log('Exercise 4 result:', favFood);
-
 
 // splice(start, deleteCount)
 // splice(start, deleteCount, item0)
@@ -93,7 +92,14 @@ Exercise 5: Insert an element between two others
 
 Complete Exercise 5 in the space below:
 */
+console.log('foods array:', foods)
 
+// foods array: ['taco', 'pizza', 'cheeseburger']
 
+foods.splice(2, 0, 'tofu')
 
 console.log('Exercise 5 result:', foods);
+
+// Exercise 5 result: ['taco', 'pizza', 'tofu', 'cheeseburger']
+
+
