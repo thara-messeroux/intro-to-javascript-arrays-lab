@@ -1,5 +1,7 @@
 console.log('code works')
 
+
+
 /*
 Exercise 1: Define an empty array
 
@@ -11,6 +13,7 @@ Exercise 1 has been completed for you:
 const foods = [];
 
 console.log('Exercise 1 result:', foods);
+
 
 
 /*
@@ -28,6 +31,7 @@ console.log('Exercise 2 result:', foods);
 foods.unshift('pizza', 'cheeseburger');
 
 console.log(foods);
+
 
 
 /*
@@ -85,6 +89,7 @@ testFoods3.splice(3, 1, 'muffin'); // replace 'donut' with 'muffin'
 console.log(testFoods3);
 
 
+
 /*
 Exercise 5: Insert an element between two others
 
@@ -103,6 +108,7 @@ console.log('Exercise 5 result:', foods);
 // Exercise 5 result: ['taco', 'pizza', 'tofu', 'cheeseburger']
 
 
+
 /*
 Exercise 6: Replace elements
 
@@ -116,5 +122,29 @@ foods.splice(1, 1, 'sushi', 'cupcake')
 console.log('Exercise 6 result:', foods);
 
 // Exercise 6 result: ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger']
+
+// mom went out at 8:00 p.m.
+
+
+
+/*
+Exercise 7: Using the `slice()` method
+
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
+
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
+*/
+
+let yummy = foods.slice(1, 3);
+
+console.log('Exercise 7 result:', yummy);
+
+// Exercise 7 result: ['sushi', 'cupcake']
+
+
+
 
 
