@@ -368,3 +368,5 @@ numArrays.forEach(row => {
 });
 
 console.log("Exercise 15 result:", total);
+
+// Exercise 15 result: 534
