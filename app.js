@@ -26,9 +26,14 @@ Complete Exercise 2 in the space below:
 
 console.log('Exercise 2 result:', foods);
 
-foods.unshift('pizza', 'cheeseburger');
+// Exercise 2 result: []
 
-console.log(foods);
+foods.push('pizza', 'cheeseburger');
+
+console.log('Exercise 2 result:', foods);
+
+// Exercise 2 result: ['pizza', 'cheeseburger']
+
 
 
 
